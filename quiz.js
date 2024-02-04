@@ -89,14 +89,15 @@ function selectAnswer(button, points) {
 function showResult() {
     const questionContainer = document.getElementById('question');
     const answersContainer = document.getElementById('answers');
-    const resultContainer = document.getElementById('result');
+    const resultContainer = document.getElementById('result-container');
     const restartButton = document.getElementById('restart');
     const submitButton = document.getElementById('submit');
 
     questionContainer.style.display = 'none';
     answersContainer.style.display = 'none';
 
-    resultContainer.innerHTML = `Your score: ${score}`;
+    // resultContainer.innerHTML = `Your score: ${score}`;
+    resultContainer.querySelector('#result').innerHTML = `Your score: ${score}`;
     resultContainer.style.display = 'block';
 
     restartButton.style.display = '';
@@ -114,7 +115,7 @@ function restartQuiz(questions) {
 
     const questionContainer = document.getElementById('question');
     const answersContainer = document.getElementById('answers');
-    const resultContainer = document.getElementById('result');
+    const resultContainer = document.getElementById('result-container');
     const restartButton = document.getElementById('restart');
     const submitButton = document.getElementById('submit');
 
@@ -125,4 +126,6 @@ function restartQuiz(questions) {
     submitButton.style.display = '';
 
     loadQuestion(questions, currentQuestion);
+    // document.getElementById('welcome-screen').style.display = 'block';
+    // document.getElementById('quiz-screen').style.display = 'none';
 }
