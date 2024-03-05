@@ -21,7 +21,7 @@ fetch('data.json')
         shuffledQuestions = shuffleArray(questions);
 
         // Limit to a specific number of questions (ex: 5)
-        shuffledQuestions = shuffledQuestions.slice(0, 3);
+        shuffledQuestions = shuffledQuestions.slice(0, 6);
 
 
         loadQuestion(shuffledQuestions, currentQuestion);
@@ -110,16 +110,26 @@ function showResult() {
     questionContainer.style.display = 'none';
     answersContainer.style.display = 'none';
 
-    // resultContainer.innerHTML = `Your score: ${score}`;
-    resultContainer.querySelector('#result').innerHTML = `Your score: ${score}`;
     resultContainer.style.display = 'block';
-
     restartButton.style.display = '';
-
     submitButton.style.display = 'none';
 
+    // Check the score number and display appropriate text
+    const resultText = getResultText(score);
+    resultContainer.querySelector('#result').innerHTML = `Your score: ${score}. ${resultText}`;
 
+}
 
+function getResultText(score) {
+    if (score >= 33) {
+        return "Congratulations! You did great!";
+    } else if (score >= 22) {
+        return "Well done! You passed.";
+    } else if (score >= 11) {
+        return "You could do better. Keep practicing.";
+    } else {
+        return "You need more practice. Keep learning.";
+    }
 }
 
 function restartQuiz(questions) {
