@@ -53,6 +53,33 @@
                 {"text": "3 ANSWER", "points": 3}
                 
             ]
+        },
+        {
+            "question": "QUESTION 7",
+            "answers": [
+                {"text": "1 ANSWER", "points": 1},
+                {"text": "2 ANSWER", "points": 2},
+                {"text": "3 ANSWER", "points": 3},
+                {"text": "4 ANSWER", "points": 4}
+            ]
+        },
+        {
+            "question": "QUESTION 8",
+            "answers": [
+                {"text": "1 ANSWER", "points": 1},
+                {"text": "2 ANSWER", "points": 2},
+                {"text": "3 ANSWER", "points": 3},
+                {"text": "4 ANSWER", "points": 4}
+            ]
+        },
+        {
+            "question": "QUESTION 9",
+            "answers": [
+                {"text": "1 ANSWER", "points": 1},
+                {"text": "2 ANSWER", "points": 2},
+                {"text": "3 ANSWER", "points": 3}
+                
+            ]
         }
     ]
 }

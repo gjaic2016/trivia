@@ -17,8 +17,14 @@ fetch('data.json')
     .then(data => {
         let questions = [...data.questions];
 
+        // Shuffle the questions array
+        shuffledQuestions = shuffleArray(questions);
 
-        loadQuestion(questions, currentQuestion);
+        // Limit to a specific number of questions (ex: 5)
+        shuffledQuestions = shuffledQuestions.slice(0, 3);
+
+
+        loadQuestion(shuffledQuestions, currentQuestion);
 
         document.getElementById('submit').addEventListener('click', () => {
 
@@ -29,15 +35,15 @@ fetch('data.json')
             score += selectedAnswerValue;
 
             currentQuestion++;
-            if (currentQuestion < questions.length) {
-                loadQuestion(questions, currentQuestion);
+            if (currentQuestion < shuffledQuestions.length) {
+                loadQuestion(shuffledQuestions, currentQuestion);
             } else {
                 showResult();
             }
         });
 
         document.getElementById('restart').addEventListener('click', () => {
-            restartQuiz(questions);
+            restartQuiz(shuffledQuestions);
         });
 
     })
@@ -45,6 +51,14 @@ fetch('data.json')
 
 } // end of function startQuiz()
 
+// Function to shuffle an array
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}// end of function shuffleArray()
 
 function loadQuestion(questions, index) {
     const questionContainer = document.getElementById('question');
@@ -90,7 +104,7 @@ function showResult() {
     const questionContainer = document.getElementById('question');
     const answersContainer = document.getElementById('answers');
     const resultContainer = document.getElementById('result-container');
-    const restartButton = document.getElementById('restart');
+    const restartButton = document.getElementById('newgame');
     const submitButton = document.getElementById('submit');
 
     questionContainer.style.display = 'none';
@@ -116,7 +130,7 @@ function restartQuiz(questions) {
     const questionContainer = document.getElementById('question');
     const answersContainer = document.getElementById('answers');
     const resultContainer = document.getElementById('result-container');
-    const restartButton = document.getElementById('restart');
+    const restartButton = document.getElementById('newgame');
     const submitButton = document.getElementById('submit');
 
     questionContainer.style.display = 'block';
@@ -128,4 +142,9 @@ function restartQuiz(questions) {
     loadQuestion(questions, currentQuestion);
     // document.getElementById('welcome-screen').style.display = 'block';
     // document.getElementById('quiz-screen').style.display = 'none';
+}
+
+const newgame = document.getElementById("newgame");
+newgame.onclick = function(e) {
+    location.reload();
 }
