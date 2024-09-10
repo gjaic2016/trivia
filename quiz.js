@@ -121,7 +121,7 @@ function showResult() {
 }
 
 function getResultText(score) {
-    if (score >= 33) {
+    if (score >= 25) {
         return "Congratulations! You did great!";
     } else if (score >= 22) {
         return "Well done! You passed.";
