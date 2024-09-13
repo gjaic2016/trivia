@@ -1,6 +1,8 @@
 let currentQuestion = 0;
 let score = 0;
 let selectedAnswerValue;
+let selectedAnswerCash = 0;
+let totalCash = 0;
 let shuffledQuestions = [];
 
 document.getElementById('start').addEventListener('click', () => {
@@ -21,7 +23,7 @@ fetch('data.json')
         shuffledQuestions = shuffleArray(questions);
 
         // Limit to a specific number of questions (ex: 5)
-        shuffledQuestions = shuffledQuestions.slice(0, 6);
+        shuffledQuestions = shuffledQuestions.slice(0, 5);
 
 
         loadQuestion(shuffledQuestions, currentQuestion);
@@ -32,7 +34,9 @@ fetch('data.json')
                 alert('Please select an answer');
                 return;
             }
+
             score += selectedAnswerValue;
+            totalCash += selectedAnswerCash;
 
             currentQuestion++;
             if (currentQuestion < shuffledQuestions.length) {
@@ -79,7 +83,7 @@ function loadQuestion(questions, index) {
 
         // Attach a click event listener to the button
         button.addEventListener('click', () => {
-            selectAnswer(button,answer.points);
+            selectAnswer(button,answer.points, answer.cash);
         });
 
         answersContainer.appendChild(button);
@@ -88,7 +92,7 @@ function loadQuestion(questions, index) {
     });
 }
 
-function selectAnswer(button, points) {
+function selectAnswer(button, points, cash) {
     // Remove the 'selected' class from all buttons
     const allButtons = document.querySelectorAll('.btn-light');
     allButtons.forEach(btn => btn.classList.remove('selected'));
@@ -98,6 +102,7 @@ function selectAnswer(button, points) {
 
     // Handle the selected answer, e.g., store the value in a variable
     selectedAnswerValue = points;
+    selectedAnswerCash = cash || 11;
 }
 
 function showResult() {
@@ -116,7 +121,7 @@ function showResult() {
 
     // Check the score number and display appropriate text
     const resultText = getResultText(score);
-    resultContainer.querySelector('#result').innerHTML = `Your score: ${score}. ${resultText}`;
+    resultContainer.querySelector('#result').innerHTML = `Your score: ${score}. Total cash: $${totalCash}. ${resultText}`;
 
 }
 
@@ -135,6 +140,7 @@ function getResultText(score) {
 function restartQuiz(questions) {
     currentQuestion = 0;
     score = 0;
+    totalCash = 0;
     // selectedAnswerValue = 0;
 
     const questionContainer = document.getElementById('question');
