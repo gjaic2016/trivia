@@ -120,17 +120,19 @@ function showResult() {
     submitButton.style.display = 'none';
 
     // Check the score number and display appropriate text
-    const resultText = getResultText(score);
+    const resultText = getResultText(totalCash);
+
+    //TODO remove score after testing
     resultContainer.querySelector('#result').innerHTML = `Your score: ${score}. Total cash: $${totalCash}. ${resultText}`;
 
 }
 
-function getResultText(score) {
-    if (score >= 25) {
+function getResultText(totalCash) {
+    if (totalCash >= 350000) {
         return "Congratulations! You did great!";
-    } else if (score >= 22) {
+    } else if (totalCash >= 250000) {
         return "Well done! You passed.";
-    } else if (score >= 11) {
+    } else if (totalCash >= 70000) {
         return "You could do better. Keep practicing.";
     } else {
         return "You need more practice. Keep learning.";
