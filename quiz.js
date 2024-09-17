@@ -71,6 +71,9 @@ function loadQuestion(questions, index) {
     const current = questions[index];
     questionContainer.innerHTML = current.question;
 
+    // Shuffle the answers array
+    const shuffledAnswers = shuffleArray(current.answers);
+
     answersContainer.innerHTML = '';
     current.answers.forEach((answer, i) => {
 
