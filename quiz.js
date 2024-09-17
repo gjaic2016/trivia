@@ -134,15 +134,15 @@ function showResult() {
 
 function getResultText(totalCash) {
     if (totalCash >= 190000) {
-        return "Ti si dika i ponos ove zemlje, pravi domoljub čija plava krv teče venama. Oko ti titra a srce zaigra na svaku mogućnost <br>" +
+        return "Ti alfa i omega, pravi domoljub čija plava krv teče venama. Oko ti titra a srce zaigra na svaku mogućnost <br>" +
         "da zajebeš nekog il mazneš neke pare. Pravi duh podzetništva čiji preci se okreću u grobu za svaki leš preko kojeg nagaziš da " +
         "postigneš svoje ciljeve!";
     } else if (totalCash >= 150000) {
-        return "Well done! You passed.";
+        return "Osoba si u ! You passed.";
     } else if (totalCash >= 70000) {
-        return "You could do better. Keep practicing.";
+        return "Propali si slučaj. Graničiš između da prodaš krv ili vlastitu mater za lovu. Ali ima nade za tebe. Keep practicing.";
     } else {
-        return "Ti si prepoštena osoba. Mani se ovog ćelavog posla i prepusti ovo pravim domoljubima!";
+        return "Ti si prepoštena osoba. Da nađeš pare na cesti odma bi ih vratio vlasniku ili uplatio u dobrotvornu udrugu.Mani se ovog ćelavog posla i prepusti ovo pravim domoljubima!";
     }
 }
 
