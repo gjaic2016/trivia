@@ -1,11 +1,10 @@
 .app_background_color {
-    background-color: #F2F2F2;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 .btn.selected {
     background-color: #419cfd; /* Change this to the desired highlight color */
     color: #fff; /* Change this to the desired text color */
-    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19); */
 }
 
 

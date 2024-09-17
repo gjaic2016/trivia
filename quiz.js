@@ -80,7 +80,8 @@ function loadQuestion(questions, index) {
         button.textContent = answer.text;
 
         button.style.width = '80%';
-        button.style.boxShadow = '0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19)';
+        // button.style.boxShadow = '0 8px 16px 0 rgba(230,233,240,0.2), 0 6px 20px 0 rgba(238,241,245,0.19)';
+        button.style.borderRadius = '3px';
 
         // Attach a click event listener to the button
         button.addEventListener('click', () => {
