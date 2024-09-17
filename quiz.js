@@ -129,11 +129,11 @@ function showResult() {
 }
 
 function getResultText(totalCash) {
-    if (totalCash >= 350000) {
+    if (totalCash >= 190000) {
         return "Ti si dika i ponos ove zemlje, pravi domoljub čija plava krv teče venama. Oko ti titra a srce zaigra na svaku mogućnost <br>" +
-        "da zajebeš nekog il mazneš neke pare. Pravi duh podzetništva čiji preci se okreću u grobu za svaki leš preko kojeg nagaziš da" +
+        "da zajebeš nekog il mazneš neke pare. Pravi duh podzetništva čiji preci se okreću u grobu za svaki leš preko kojeg nagaziš da " +
         "postigneš svoje ciljeve!";
-    } else if (totalCash >= 250000) {
+    } else if (totalCash >= 150000) {
         return "Well done! You passed.";
     } else if (totalCash >= 70000) {
         return "You could do better. Keep practicing.";
