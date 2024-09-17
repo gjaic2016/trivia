@@ -10,33 +10,38 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="container text-center">
+  <body class="d-flex flex-column justify-content-center align-items-center vh-100">
 
-    <div id="welcome-screen">
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="text-center">
         <img
+        class="image_welcome"
         src="images/img01.jpg"
         alt="Description of the image"
         width="512"
         height="512"
       />
         <h1>Welcome to the CRO Trivia</h1>
-        <button class="btn btn-primary" id="start">Start</button>
+        <button class="btn btn-primary mt-4" id="start">Start</button>
     </div>
 
-    <div id="quiz-screen" style="display: none">
-      <h2><div id="question"></div></h2>
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" class="text-center" style="display: none">
+      <h2><div id="question" class="mx-auto" style="max-width: 80%;"></div></h2>
       <div id="answers"></div>
-      <button class="btn btn-primary" id="submit">Submit</button>
+      <button class="btn btn-primary mt-4" id="submit">Submit</button>
      
     </div>
 
+    <!-- Result Container -->
     <div id="result-container" style="display: none">
       <div id="result"></div>
-      <button class="btn btn-primary" id="newgame" style="display: none">
+      <button class="btn btn-primary mt-4" id="newgame" style="display: none">
         Restart Quiz
       </button>
     </div>
 
+    
     <script src="quiz.js"></script>
   </body>
 </html>

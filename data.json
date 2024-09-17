@@ -1,12 +1,12 @@
 {
     "questions": [
         {
-            "question": "QUESTION 1",
+            "question": "Direktor si privatne tvrtke Milerazvoj d.o.o.. Uvidom u poslovne knjige ustavljeno je da se u protekloj godini ostvarila ušteda uskraćivanjem božičnica i regresa  uz izgovor da je teško razdoblje i ostale poznate izlike koje se uče na ekonomiji smjer menadžment. Želiš izvuči novce, ti češ...",
             "answers": [
-                {"text": "1 ANSWER", "points": 1, "cash": 10000},
-                {"text": "2 ANSWER", "points": 2, "cash": 20000},
-                {"text": "3 ANSWER", "points": 3, "cash": 30000},
-                {"text": "4 ANSWER", "points": 4, "cash": 40000}
+                {"text": "Zvati nećaka od žene da ti izvadi par ugovora iz Studentskog centra, izmišljaš neku uslugu guranja papira po uredu i obećaješ mu 2% od uplačenog iznosa po ugovoru.", "points": 1, "cash": 10000},
+                {"text": "Otvaraš prvi web shop naručuješ iPhone i  iMac zadnje generacije i ostalu dodatnu opremu za potrebe firme, jer treba se ulagat u opremu i modernizirat poslovanje, osim toga neželiš da Duje iz susjednog ureda misli da se nema za novi mobitel.", "points": 2, "cash": 20000},
+                {"text": "Organiziraš team building, vodiš zaposlenike u najjeftiniji restoran koji si uspio nać. Neiskorištenu hranu i piće moliš restoran da ti zapakiraju za doma, pa pobogu neće se bacat hrana.", "points": 3, "cash": 30000},
+                {"text": "Knjižiš trošarine na nepostojeća poslovna putovanja u susjedne zemlje, moliš rađunovođu da frizira račune i guraš joj voucher za free spa vikend u Krapinskim toplicama u znak zahvale.", "points": 4, "cash": 40000}
             ]
         },
         {

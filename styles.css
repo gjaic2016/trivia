@@ -2,3 +2,8 @@
     background-color: #419cfd; /* Change this to the desired highlight color */
     color: #fff; /* Change this to the desired text color */
 }
+
+
+.image_welcome{
+    border-radius: 80px 0px 80px 0px;
+}

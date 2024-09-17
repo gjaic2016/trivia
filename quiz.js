@@ -79,7 +79,7 @@ function loadQuestion(questions, index) {
         button.classList.add('btn', 'btn-light');
         button.textContent = answer.text;
 
-        button.style.width = '50%';
+        button.style.width = '80%';
 
         // Attach a click event listener to the button
         button.addEventListener('click', () => {
