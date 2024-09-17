@@ -10,87 +10,86 @@
             ]
         },
         {
-            "question": "QUESTION 2",
+            "question": "POSKOK (agencija za suzbijanje dobre volje i neorganiziranog kriminala) te uhićuje  i odvodi u istražni zatvor. Na izricanju optužbi te terete za izvlačenje novca iz gradskog proračuna i traže tvoje očitovanje. Odgovaraš sljedeće…",
             "answers": [
-                {"text": "1 ANSWER", "points": 1, "cash": 10000},
-                {"text": "2 ANSWER", "points": 2, "cash": 20000},
-                {"text": "3 ANSWER", "points": 3, "cash": 30000},
-                {"text": "4 ANSWER", "points": 4, "cash": 40000}
+                {"text": "Izjavljuješ da ti je tada pao šećer do te mjere da  si izgubio svijest i vadiš se na kratkotrajnu amneziju i da se ne sjećaš situacije, te u sebi skidaš sve svece onom Horvatinčiću što je iskoristio sinkopu jer seljačina ne zna vozit čamac.", "points": 1, "cash": 10000},
+                {"text": "Kuneš se da nisi imao veze s time, zaklinjući se na svetog Antu  dok mašeš krunicom u zraku.", "points": 2, "cash": 20000},
+                {"text": "Nudiš popis ostalih sudionika u zamjenu za blažu kaznu, čak i Marije, one male plavuše u računovodstvu koja je tek došla radit prije mjesec dana.", "points": 3, "cash": 30000},
+                {"text": "Izjavljuješ da nisi kriv i da si žrtva urote i opisuješ teorije zavjera koje nadmašuju one iz dosjea X.", "points": 4, "cash": 40000}
             ]
         },
         {
-            "question": "QUESTION 3",
+            "question": "Otvara se novo radno mjesto za savjetnika, izabran si za tu poziciju ali nemaš tražene kompetencije, iako se godinama busaš u prsa kako si upisao filozofski fakultet smjer ontologija, gdje nikako da položiš prvu godinu koju ponavljaš već 3. put. Nikako da prokužiš još što je bit a što bitak. Ti češ...",
             "answers": [
-                {"text": "1 ANSWER", "points": 1, "cash": 10000},
-                {"text": "2 ANSWER", "points": 2, "cash": 20000},
-                {"text": "3 ANSWER", "points": 3, "cash": 30000},
-                {"text": "4 ANSWER", "points": 4, "cash": 40000}
+                {"text": "Zoveš Sveučilište u Mostaru i raspituješ se za cijene diploma i koliko se čeka na dostavu. Kome se uopće slušaju svi ti predmeti i čekaju godine za neki tam papir.", "points": 1, "cash": 10000},
+                {"text": "Žicaš od kuma malog da ti fotošopira neku diplomu, tko će ionako to provjeravati. Mali zna kompjutere, prošle godine mi postavio Windowse na crno za 100 kuna.", "points": 2, "cash": 20000},
+                {"text": "Obraćaš se kolegi koji zna rektora na fakultetu da malo podmaže i ubrza dobivanje tog zvanja prvostupnika i da ubaci zvanje počasnog studenta. Ionako ima dosta malverzacija, što je jedna više ili manje.", "points": 3, "cash": 30000},
+                {"text": "Unajmljuješ studenta s politologije da ti izradi istraživanje o prednostima ulaganja u sadnju češnjaka i održivosti. Predstavljaš rad i busaš u prsa kako kužiš sve potrebe posla iako ne znaš kako pošteno prodinstati češnjak.", "points": 4, "cash": 40000}
                 
             ]
         },
         {
-            "question": "QUESTION 4",
+            "question": "Skrivio si prometnu nesreću prolaskom kroz crveno na križanju. Srećom nema ozlijeđenih a nema ni očevidaca.Ti češ...",
             "answers": [
-                {"text": "1 ANSWER", "points": 1, "cash": 10000},
-                {"text": "2 ANSWER", "points": 2, "cash": 20000},
-                {"text": "3 ANSWER", "points": 3, "cash": 30000},
+                {"text": "Izlaziš van iz auta i skidaš drugome vozaču sve s neba jer je odvaljen branik na tvojem BMW-u i optužuješ drugoga da je prošao kroz crveno. ", "points": 1, "cash": 10000},
+                {"text": "Prijetiš se drugome vozaču da je l' zna on tko si ti i da ćeš zvati kuma koji je prometni policajac i usput nabrajaš koliko te koštao body kit koji si nabavio preko Alibabe.", "points": 2, "cash": 20000},
+                {"text": "Bacaš se na pod kao na Neymar i počneš imitirati trzajnu ozljedu vrata, koljena i ostalih dijelova tijela koje nikad nisi naučio na biologiji u osnovnoj školi i prijetiš se tužbom", "points": 3, "cash": 30000},
+                {"text": "Stiščeš gas do kraja i bježiš niz ulicu dok krunica na retrovizoru treperi od siline visokih okretaja", "points": 4, "cash": 40000}
+            ]
+        },
+        {
+            "question": "Mlađi brat ti je ukrao pare iz novčanika, ti češ…",
+            "answers": [
+                {"text": "Učlanjuješ ga automatski u hdz", "points": 1, "cash": 10000},
+                {"text": "Izbiješ boga u njemu", "points": 2, "cash": 20000},
+                {"text": "Tužiš ga starcima", "points": 3, "cash": 30000},
                 {"text": "4 ANSWER", "points": 4, "cash": 40000}
             ]
         },
         {
-            "question": "QUESTION 5",
+            "question": "Kao ministar neki tamo novinar te otkrio da si dobio ljetovanje po specijalnoj VIP cijeni u hotelu s 5 zvjezdica. Boga mu ne možeš se više ni opustit za godišnji kad te netko počasti. Ti češ…",
             "answers": [
-                {"text": "1 ANSWER", "points": 1, "cash": 10000},
-                {"text": "2 ANSWER", "points": 2, "cash": 20000},
-                {"text": "3 ANSWER", "points": 3, "cash": 30000},
-                {"text": "4 ANSWER", "points": 4, "cash": 40000}
-            ]
-        },
-        {
-            "question": "QUESTION 6",
-            "answers": [
-                {"text": "1 ANSWER", "points": 1, "cash": 10000},
-                {"text": "2 ANSWER", "points": 2, "cash": 20000},
-                {"text": "3 ANSWER", "points": 3, "cash": 30000},
-                {"text": "4 ANSWER", "points": 4, "cash": 40000}
+                {"text": "Zoveš nakladnika i skidaš im sve živo i prijetiš tužbom za klevetu i povredu časti ako ne povuku priču uz ispriku.", "points": 1, "cash": 10000},
+                {"text": "Preko nekog mutnog lika šalješ mu par likova da porazgovaraju o njegovim koljenima", "points": 2, "cash": 20000},
+                {"text": "Praviš se glup i demantiraš sve", "points": 3, "cash": 30000},
+                {"text": "Daješ izjavu da zašto se diže prašina, da si samo iskoristio akcijsku ponudu s akcijskom cijenom, koja evo bas slučajno je bilo na crnom jajetu", "points": 4, "cash": 40000}
                 
             ]
         },
         {
-            "question": "QUESTION 7",
+            "question": "Trebaš uredit kupaonicu i zoveš kuma da ti sredi neki dobar deal preko svoje firme. Hvališ ga na sve strane i kuneš se u njegovu kvalitetu i stručno oko, ipak je familija s tatine strane. Nakon završenog posla, nakon mjeseci izbjegavanja traži naplatu. Ti češ...",
             "answers": [
-                {"text": "1 ANSWER", "points": 1, "cash": 10000},
-                {"text": "2 ANSWER", "points": 2, "cash": 20000},
-                {"text": "3 ANSWER", "points": 3, "cash": 30000},
-                {"text": "4 ANSWER", "points": 4, "cash": 40000}
+                {"text": "Izmotavaš se da nije još sjela plaća, je l' može malo pričekat s naplatom.", "points": 1, "cash": 10000},
+                {"text": "Praviš se lud, i podsjećaš ga na onog janjca koje si okretao to popodne i par litri domaćeg vina koje se popilo, pa predlažeš da se prebije nekako to.", "points": 2, "cash": 20000},
+                {"text": "Kažeš da ćeš ga reklamirat na svom Instagram profilu i uvjeravaš ga da marketinški troškovi koštaju više od njegovih radova i da mu radiš uslugu i  donijet još više posla.", "points": 3, "cash": 40000}
             ]
         },
         {
-            "question": "QUESTION 8",
+            "question": "Otkriven si  da si  na mjesto savjetnika zaposlio prijatelja. Ti češ...",
             "answers": [
-                {"text": "1 ANSWER", "points": 1, "cash": 10000},
-                {"text": "2 ANSWER", "points": 2, "cash": 20000},
-                {"text": "3 ANSWER", "points": 3, "cash": 30000},
-                {"text": "4 ANSWER", "points": 4, "cash": 40000}
+                {"text": "Kuneš se da nemaš nikakve veze s time, niti se sjećaš da ste nekog zaposlili", "points": 1, "cash": 10000},
+                {"text": "Smiruješ tenzije da ako je čovjek kvalificiran iako je završio za agronoma, što nema blage veze s radnim mjestom", "points": 2, "cash": 20000},
+                {"text": "Praviš da ne znaš tko je to i da nikad nisi vidio čovjeka u životu, iako su na Facebook-u našli slike vas dvoje na Brijunima prije par godina", "points": 3, "cash": 30000},
+                {"text": "Negoduješ novinarima što nemaju pametnijeg posla i demantiraš sve", "points": 4, "cash": 40000}
             ]
         },
         {
-            "question": "QUESTION 9",
+            "question": "Treba ići glasat. Ti češ...",
             "answers": [
-                {"text": "1 ANSWER", "points": 1, "cash": 10000},
-                {"text": "2 ANSWER", "points": 2, "cash": 20000},
-                {"text": "3 ANSWER", "points": 3, "cash": 30000},
-                {"text": "4 ANSWER", "points": 4, "cash": 40000}
+                {"text": "Neda ti se dignut iz kreveta, koji k baš glasanje mora biti u nedjelju", "points": 1, "cash": 10000},
+                {"text": "Fućka ti se za sve, neka izgori sve", "points": 2, "cash": 20000},
+                {"text": "Nemaš ni pojma tko su kandidati i pališ Seinfelda na Netflixu", "points": 3, "cash": 30000},
+                {"text": "Pitaš frenda za kog će glasat, pa ćeš tako i ti", "points": 4, "cash": 40000}
                 
             ]
         },
         {
-            "question": "QUESTION 10",
+            "question": "Koja slika povjesne ličnosti krasi vaš dom",
             "answers": [
-                {"text": "1 ANSWER", "points": 1, "cash": 10000},
-                {"text": "2 ANSWER", "points": 2, "cash": 20000},
-                {"text": "3 ANSWER", "points": 3, "cash": 30000},
-                {"text": "4 ANSWER", "points": 4, "cash": 40000}
+                {"text": "Slika Tite", "points": 1, "cash": 10000},
+                {"text": "Slika Tuđmana", "points": 2, "cash": 20000},
+                {"text": "Slika Plenkovića", "points": 3, "cash": 30000},
+                {"text": "Slika Pernara", "points": 4, "cash": 40000}
                 
             ]
         }
