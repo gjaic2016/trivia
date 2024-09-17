@@ -80,6 +80,7 @@ function loadQuestion(questions, index) {
         button.textContent = answer.text;
 
         button.style.width = '80%';
+        button.style.boxShadow = '0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19)';
 
         // Attach a click event listener to the button
         button.addEventListener('click', () => {
@@ -122,20 +123,22 @@ function showResult() {
     // Check the score number and display appropriate text
     const resultText = getResultText(totalCash);
 
-    //TODO remove score after testing
-    resultContainer.querySelector('#result').innerHTML = `Your score: ${score}. Total cash: $${totalCash}. ${resultText}`;
+    //TODO remove score after testing....Your score: ${score}.
+    resultContainer.querySelector('#result').innerHTML = `Totalna količina maznute love: $${totalCash}. <br> ${resultText}`;
 
 }
 
 function getResultText(totalCash) {
     if (totalCash >= 350000) {
-        return "Congratulations! You did great!";
+        return "Ti si dika i ponos ove zemlje, pravi domoljub čija plava krv teče venama. Oko ti titra a srce zaigra na svaku mogućnost <br>" +
+        "da zajebeš nekog il mazneš neke pare. Pravi duh podzetništva čiji preci se okreću u grobu za svaki leš preko kojeg nagaziš da" +
+        "postigneš svoje ciljeve!";
     } else if (totalCash >= 250000) {
         return "Well done! You passed.";
     } else if (totalCash >= 70000) {
         return "You could do better. Keep practicing.";
     } else {
-        return "You need more practice. Keep learning.";
+        return "Ti si prepoštena osoba. Mani se ovog ćelavog posla i prepusti ovo pravim domoljubima!";
     }
 }
 
