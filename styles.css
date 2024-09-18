@@ -1,3 +1,12 @@
+body {
+    min-height: 100vh;
+  }
+  
+  #quiz-screen, #welcome-screen, #result-container {
+    width: 100%;
+    padding: 10px;
+  }
+
 .app_background_color {
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
@@ -11,3 +20,23 @@
 .image_welcome{
     border-radius: 80px 0px 80px 0px;
 }
+
+@media (max-width: 768px) {
+    .image_welcome {
+      width: 80%; /* Resize image on smaller screens */
+      height: auto;
+      border-radius: 40px 0px 40px 0px;
+    }
+  
+    #welcome-screen h1 {
+      font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+  
+    #welcome-screen h5 {
+      font-size: 1rem; /* Adjust text size for better readability */
+    }
+  
+    #quiz-screen h2 {
+      font-size: 1.25rem;
+    }
+  }

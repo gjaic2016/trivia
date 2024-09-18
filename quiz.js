@@ -138,7 +138,7 @@ function getResultText(totalCash) {
         "da zajebeš nekog il mazneš neke pare. Pravi duh podzetništva čiji preci se okreću u grobu za svaki leš preko kojeg nagaziš da " +
         "postigneš svoje ciljeve!";
     } else if (totalCash >= 150000) {
-        return "Osoba si u ! You passed.";
+        return "Fali text...! You passed.";
     } else if (totalCash >= 70000) {
         return "Propali si slučaj. Graničiš između da prodaš krv ili vlastitu mater za lovu. Ali ima nade za tebe. Keep practicing.";
     } else {
