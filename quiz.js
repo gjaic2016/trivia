@@ -138,13 +138,15 @@ function getResultText(totalCash) {
         "da zajebeš nekog il mazneš neke pare. Pravi duh podzetništva čiji preci se okreću u grobu za svaki leš preko kojeg nagaziš da " +
         "postigneš svoje ciljeve!";
     } else if (totalCash >= 150000) {
-        return "Fali text...! You passed."; 
+        return "Tvoje su moralne granice ozbiljno narušene. Tvoj stav odražava duboko ukorijenjenu kulturu klijentelizma i nepotizma.<br>" +
+        "Vizija i moto koji te vode je: 'Daj, i daj još više!'";
     } else if (totalCash >= 150000) {
-        return "Fali text...! You passed.";
+        return "Pohlepan si oportunist. Redovno povlačiš veze za doktora i namještanje poslova. Imaš nos za dobru brzu zaradi i za kvalitetno preveslat nekog kada je to potrebno.<br>" + 
+        "Da možeš naplatil bi i vlastitoj majci.";
     } else if (totalCash >= 70000) {
-        return "Propali si slučaj. Graničiš između da prodaš krv ili vlastitu mater za lovu. Ali ima nade za tebe. Keep practicing.";
+        return "Graničiš između da prodaš krv ili vlastitu mater za lovu. Ali ima nade za tebe. Keep practicing.";
     } else {
-        return "Ti si prepoštena osoba. Da nađeš pare na cesti odma bi ih vratio  ili uplatio u dobrotvornu udrugu.Mani se ovog ćelavog posla i prepusti ovo pravim domoljubima!";
+        return "Ti si prepoštena osoba. Da nađeš pare na cesti odma bi ih vratio ili uplatio u dobrotvornu udrugu. Nisi jedan od onih koji su se prilagodili korumpiranom sustavu i prepusti ovo pravim domoljubima!";
     }
 }
 
