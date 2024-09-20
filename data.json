@@ -42,8 +42,7 @@
             "answers": [
                 {"text": "Učlanjuješ ga automatski u hdz", "points": 1, "cash": 10000},
                 {"text": "Izbiješ boga u njemu", "points": 2, "cash": 20000},
-                {"text": "Tužiš ga starcima", "points": 3, "cash": 30000},
-                {"text": "4 ANSWER", "points": 4, "cash": 40000}
+                {"text": "Tužiš ga starcima", "points": 3, "cash": 30000}
             ]
         },
         {
