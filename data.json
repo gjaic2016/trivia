@@ -91,6 +91,112 @@
                 {"text": "Slika Pernara", "points": 4, "cash": 40000}
                 
             ]
+        },
+        {
+            "question": "Tijekom izlaska popiješ par pivi i nakrkaš neke lose kemije od Mirka iz kvarta. Zoveš Uber, ulaziš u vozilo, vozač te čudno pogleda i okrenete na krivo, ti češ…",
+            "answers": [
+                {"text": "SRazbijaš staklo od kabine i vrištiš da  češ mu pročačkat prostatu", "points": 1, "cash": 10000},
+                {"text": "Guraš mu se u kabinu da mu pokažeš neke poteze s kick boxa koje si upisao prije dva tjedna", "points": 2, "cash": 20000},
+                {"text": "Vilica ti je preukočena od kemije da   nemreš ni poštenu rečenicu složiti", "points": 4, "cash": 40000}
+                
+            ]
+        },
+        {
+            "question": "Frend te pita da li  imaš koga za travu.",
+            "answers": [
+                {"text": "Praviš se glup, kažeš da ti ponestalo", "points": 1, "cash": 10000},
+                {"text": "Pere te paranoja da je će te lik cinkat i da radi za murju nešh, počneš ga prepipavat dali nosi žicu…", "points": 2, "cash": 20000},
+                {"text": "Vadiš iz usaftanih gaća neki smotuljak i počneš prebirat po mrvicama, skupiš jedva za pljugu i naplaćuješ neku bjesnu lovu", "points": 3, "cash": 30000},
+                {"text": "Odmah okrećeš broj od Mrve, nabavljaš od čovjeka neku gadariju i prosljeđuješ frendu za duplu cijenu, teška su vremena a prilike na svakom koraku...", "points": 4, "cash": 40000}
+                
+            ]
+        }, 
+        {
+            "question": "Neda ti se raditi, a socijala ti nije dovoljna za svakodnevno dangubljenje po kafanama, saznao si da se dobro placa na otkupu metala.",
+            "answers": [
+                {"text": "Počneš provaljivat po kvartu i krast po šupama", "points": 1, "cash": 10000},
+                {"text": "Skidaš felge sa vozila od susjeda, i sljedeći dan im glumatat da ovi mladi danas nisu normalni, i kud ovaj svijet ide ", "points": 2, "cash": 20000},
+                {"text": "Izpraksaš neko šepanje i kreneš prosit na semaforu", "points": 3, "cash": 40000}
+                
+            ]
+        },
+        {
+            "question": "Baviš se uzgojem stoke i mesne prerađevine, i trenutno konkurencija ima bolju zaradu, ti ćeš",
+            "answers": [
+                {"text": "Otrovati stoku konkurencije", "points": 1, "cash": 10000},
+                {"text": "Poslat par likova s palicama da malo popričaju s vlasnikom.", "points": 2, "cash": 20000},
+                {"text": "Zapaliti stoku konkurencije", "points": 3, "cash": 30000},
+                {"text": "Dići u zrak stoku konkurencije", "points": 3, "cash": 40000}
+                
+            ]
+        },
+        {
+            "question": "Na snazi je zabrana rada nedjeljom, a ti želiš povećati profit u trgovini, ti ćeš…",
+            "answers": [
+                {"text": "Pravit se glup i svejedno otvorit trgovinu", "points": 1, "cash": 10000},
+                {"text": "Proglasiti sajamski dan i otvorit trgovinu ", "points": 2, "cash": 20000},
+                {"text": "Otvorit online shop i vršit dostavu ", "points": 3, "cash": 40000}
+                
+            ]
+        },
+        {
+            "question": "Radiš kao policijski službenik, uhvatili su vas da uzimate novac od migranata na granicama.",
+            "answers": [
+                {"text": "Braniš se da otkad igraš online casino imaš i previše da se zamaraš nečijim sitnišem", "points": 1, "cash": 10000},
+                {"text": "Samo si pomagao ljudima da se snađu s našom valutom i promijenio koji euro s dobrim tečajem", "points": 2, "cash": 20000},
+                {"text": "Objašnjavaš da su vam u dobroj namjeri ostavili za kavu za sigurnost i povjerenje", "points": 3, "cash": 40000},
+                {"text": "Našao si na podu", "points": 3, "cash": 40000}
+            ]
+        },
+        {
+            "question": "Imaš malu penziju, a treba popravit kućni proračun",
+            "answers": [
+                {"text": "Kreneš skupljat boce i hrvat se s drugim penzićima oko teritorija", "points": 1, "cash": 10000},
+                {"text": "Zaposlit se kao umirovljenik i časno odradit 4 sata dnevno", "points": 2, "cash": 20000},
+                {"text": "Kreneš dilat preostale tablete sa trajnih recepata ispred klubova", "points": 3, "cash": 40000}
+            ]
+        },
+        {
+            "question": "Koja tvrdnja te najbolje opisuje…",
+            "answers": [
+                {"text": "Kradem povremeno", "points": 1, "cash": 10000},
+                {"text": "Kradem redovno", "points": 2, "cash": 20000},
+                {"text": "Kradem previše", "points": 3, "cash": 40000},
+                {"text": "Ne kradem", "points": 3, "cash": 40000}
+            ]
+        },
+        {
+            "question": "Voziš se na cesti, gužva na svakom koraku. Najednom vozilo ti indikatorom daje do znanja da se želi uključiti u tvoju traku, ti češ",
+            "answers": [
+                {"text": "Propustiti vozilo", "points": 1, "cash": 10000},
+                {"text": "Nabit se na branik vozilu ispred, pritom psovat sve živo ovom kaj se hoće ubacit dok ti izlazi pjena na usta", "points": 2, "cash": 20000},
+                {"text": "Pravit ćeš se da ga ne vidiš i gledat na drugu stranu", "points": 3, "cash": 40000}
+            ]
+        },
+        {
+            "question": "Neki tam migrant dostavljač ti uzme prednost u rasrižju i skoro skrivi nesreću.",
+            "answers": [
+                {"text": "Duboko udahnuti i ne napravit ništa", "points": 1, "cash": 10000},
+                {"text": "Jebeš mu majku prašinarsku i sve svece da neka se vrati od kud je došao", "points": 1, "cash": 40000},
+                {"text": "Prestići ga i napravit brake check da se rasipa ko đubre po podu", "points": 2, "cash": 50000}
+            ]
+        },
+        {
+            "question": "Nekad davno dobio si stan od države na korištenje. Nakon izvjesnog vremena dobivaš sudsko rješenje da se trebaš iseliti, ti češ…",
+            "answers": [
+                {"text": "Iselit se naravno, ipak si uzoran građanin i biti radostan što si imao prilike uživat u ovoj milostinji što ti pružila ova zemlja majka", "points": 1, "cash": 10000},
+                {"text": "Pravit se glup i ignorirat, proći će samo od sebe", "points": 1, "cash": 30000},
+                {"text": "Sredit neke papire na crno, prodat nekretninu nekom bogeku i brojat pare", "points": 2, "cash": 50000}
+            ]
+        },
+        {
+            "question": "Slaba je nabava trave u zadnje vrijeme, a murja hvata sve nove pošiljke.",
+            "answers": [
+                {"text": "Razvodnjavaš trenutnu zalihu s origanom i ekipi prodaješ pod novi okus", "points": 1, "cash": 10000},
+                {"text": "Razvodnjavaš trenutnu zalihu s peršinom i moliš boga da nitko ne skuži ", "points": 1, "cash": 30000},
+                {"text": "Uzimaš lovu za pred narudžbe i nestaješ na koji mjesec, dva.", "points": 2, "cash": 50000},
+                {"text": "Seliš baku u dom za starije, i u njenoj staroj sobi napraviš staklenik i posadiš par komada i čekaš berbu.", "points": 2, "cash": 50000}
+            ]
         }
     ]
 }

@@ -141,7 +141,7 @@ function getResultText(totalCash) {
         return "Tvoje su moralne granice ozbiljno narušene. Tvoj stav odražava duboko ukorijenjenu kulturu klijentelizma i nepotizma.<br>" +
         "Vizija i moto koji te vode je: 'Daj, i daj još više!'";
     } else if (totalCash >= 100000) {
-        return "Pohlepan si oportunist. Redovno povlačiš veze za doktora i namještanje poslova. Imaš nos za dobru brzu zaradi i za kvalitetno preveslat nekog kada je to potrebno.<br>" + 
+        return "Pohlepan si oportunist. Redovno povlačiš veze za doktora i namještanje poslova. Imaš nos za dobru brzu zaradu i za kvalitetno preveslat nekog kada je to potrebno.<br>" + 
         "Da možeš naplatil bi i vlastitoj majci.";
     } else if (totalCash >= 70000) {
         return "Graničiš između da prodaš krv ili vlastitu mater za lovu. Ali ima nade za tebe. Keep practicing.";
