@@ -23,7 +23,7 @@ fetch('data.json')
         shuffledQuestions = shuffleArray(questions);
 
         // Limit to a specific number of questions (ex: 5)
-        shuffledQuestions = shuffledQuestions.slice(0, 5);
+        shuffledQuestions = shuffledQuestions.slice(0, 6);
 
 
         loadQuestion(shuffledQuestions, currentQuestion);
@@ -140,10 +140,10 @@ function getResultText(totalCash) {
     } else if (totalCash >= 150000) {
         return "Tvoje su moralne granice ozbiljno narušene. Tvoj stav odražava duboko ukorijenjenu kulturu klijentelizma i nepotizma.<br>" +
         "Vizija i moto koji te vode je: 'Daj, i daj još više!'";
-    } else if (totalCash >= 100000) {
+    } else if (totalCash >= 90000) {
         return "Pohlepan si oportunist. Redovno povlačiš veze za doktora i namještanje poslova. Imaš nos za dobru brzu zaradu i za kvalitetno preveslat nekog kada je to potrebno.<br>" + 
         "Da možeš naplatil bi i vlastitoj majci.";
-    } else if (totalCash >= 70000) {
+    } else if (totalCash >= 30000) {
         return "Graničiš između da prodaš krv ili vlastitu mater za lovu. Ali ima nade za tebe. Keep practicing.";
     } else {
         return "Ti si prepoštena osoba. Da nađeš pare na cesti odma bi ih vratio ili uplatio u dobrotvornu udrugu. Nisi jedan od onih koji su se prilagodili korumpiranom sustavu i prepusti ovo pravim domoljubima!";
