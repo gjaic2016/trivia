@@ -56,7 +56,7 @@
             ]
         },
         {
-            "question": "Trebaš uredit kupaonicu i zoveš kuma da ti sredi neki dobar deal preko svoje firme. Hvališ ga na sve strane i kuneš se u njegovu kvalitetu i stručno oko, ipak je familija s tatine strane. Nakon završenog posla, nakon mjeseci izbjegavanja traži naplatu. Ti češ...",
+            "question": "Trebaš uredit kupaonicu i zoveš kuma da ti sredi neki dobar deal preko svoje firme. Hvališ ga na sve strane i kuneš se u njegovu kvalitetu i stručno oko, ipak je familija s tatine strane. Nakon završenog posla, nakon par mjeseci izbjegavanja traži naplatu. Ti češ...",
             "answers": [
                 {"text": "Izmotavaš se da nije još sjela plaća, je l' može malo pričekat s naplatom.", "points": 1, "cash": 10000},
                 {"text": "Praviš se lud, i podsjećaš ga na onog janjca koje si okretao to popodne i par litri domaćeg vina koje se popilo, pa predlažeš da se prebije nekako to.", "points": 2, "cash": 20000},
@@ -64,7 +64,7 @@
             ]
         },
         {
-            "question": "Otkriven si  da si  na mjesto savjetnika zaposlio prijatelja. Ti češ...",
+            "question": "Otkriven si da si na mjesto savjetnika zaposlio prijatelja. Ti češ...",
             "answers": [
                 {"text": "Kuneš se da nemaš nikakve veze s time, niti se sjećaš da ste nekog zaposlili", "points": 1, "cash": 10000},
                 {"text": "Smiruješ tenzije da ako je čovjek kvalificiran iako je završio za agronoma, što nema blage veze s radnim mjestom", "points": 2, "cash": 20000},
@@ -73,7 +73,7 @@
             ]
         },
         {
-            "question": "Treba ići glasat. Ti češ...",
+            "question": "Treba ići glasat. Ti ćeš...",
             "answers": [
                 {"text": "Neda ti se dignut iz kreveta, koji k baš glasanje mora biti u nedjelju", "points": 1, "cash": 10000},
                 {"text": "Fućka ti se za sve, neka izgori sve", "points": 2, "cash": 20000},
@@ -93,19 +93,19 @@
             ]
         },
         {
-            "question": "Tijekom izlaska popiješ par pivi i nakrkaš neke lose kemije od Mirka iz kvarta. Zoveš Uber, ulaziš u vozilo, vozač te čudno pogleda i okrenete na krivo, ti češ…",
+            "question": "Tijekom izlaska popiješ par pivi i neke loše kemije od Mirka iz kvarta. Zoveš Uber, ulaziš u vozilo, vozač te čudno pogleda i okrene te na krivo, ti češ…",
             "answers": [
-                {"text": "SRazbijaš staklo od kabine i vrištiš da  češ mu pročačkat prostatu", "points": 1, "cash": 10000},
-                {"text": "Guraš mu se u kabinu da mu pokažeš neke poteze s kick boxa koje si upisao prije dva tjedna", "points": 2, "cash": 20000},
-                {"text": "Vilica ti je preukočena od kemije da   nemreš ni poštenu rečenicu složiti", "points": 4, "cash": 40000}
+                {"text": "Udaraš po staklu od kabine i glasaš morževim vriskom u sezoni parenja", "points": 1, "cash": 10000},
+                {"text": "Guraš mu se u kabinu da mu pokažeš neke poluge s jiu jitsua koje si upisao prije dva tjedna", "points": 2, "cash": 20000},
+                {"text": "Vilica ti je preukočena od kemije da nemreš ni poštenu rečenicu složiti", "points": 4, "cash": 40000}
                 
             ]
         },
         {
-            "question": "Frend te pita da li  imaš koga za travu.",
+            "question": "Frend te pita da li imaš koga za travu.",
             "answers": [
                 {"text": "Praviš se glup, kažeš da ti ponestalo", "points": 1, "cash": 10000},
-                {"text": "Pere te paranoja da je će te lik cinkat i da radi za murju nešh, počneš ga prepipavat dali nosi žicu…", "points": 2, "cash": 20000},
+                {"text": "Pere te paranoja da je će te lik cinkat i da radi za murju, te ga počneš prepipavat dali nosi žicu…", "points": 2, "cash": 20000},
                 {"text": "Vadiš iz usaftanih gaća neki smotuljak i počneš prebirat po mrvicama, skupiš jedva za pljugu i naplaćuješ neku bjesnu lovu", "points": 3, "cash": 30000},
                 {"text": "Odmah okrećeš broj od Mrve, nabavljaš od čovjeka neku gadariju i prosljeđuješ frendu za duplu cijenu, teška su vremena a prilike na svakom koraku...", "points": 4, "cash": 40000}
                 
@@ -114,14 +114,14 @@
         {
             "question": "Neda ti se raditi, a socijala ti nije dovoljna za svakodnevno dangubljenje po kafanama, saznao si da se dobro placa na otkupu metala.",
             "answers": [
-                {"text": "Počneš provaljivat po kvartu i krast po šupama", "points": 1, "cash": 10000},
-                {"text": "Skidaš felge sa vozila od susjeda, i sljedeći dan im glumatat da ovi mladi danas nisu normalni, i kud ovaj svijet ide ", "points": 2, "cash": 20000},
-                {"text": "Izpraksaš neko šepanje i kreneš prosit na semaforu", "points": 3, "cash": 40000}
+                {"text": "Počneš provaljivat po kvartu i krast sve vrste željeza po šupama", "points": 1, "cash": 10000},
+                {"text": "Skidaš felge sa vozila od susjeda, i sljedeći dan im glumataš da ovi mladi danas nisu normalni, i kud ovaj svijet ide ", "points": 2, "cash": 20000},
+                {"text": "Kreneš krast šahtove sa cesta.", "points": 3, "cash": 40000}
                 
             ]
         },
         {
-            "question": "Baviš se uzgojem stoke i mesne prerađevine, i trenutno konkurencija ima bolju zaradu, ti ćeš",
+            "question": "Baviš se uzgojem stoke i mesne prerađevine, i trenutno konkurencija ima bolji promet, ti ćeš",
             "answers": [
                 {"text": "Otrovati stoku konkurencije", "points": 1, "cash": 10000},
                 {"text": "Poslat par likova s palicama da malo popričaju s vlasnikom.", "points": 2, "cash": 20000},
@@ -131,7 +131,7 @@
             ]
         },
         {
-            "question": "Na snazi je zabrana rada nedjeljom, a ti želiš povećati profit u trgovini, ti ćeš…",
+            "question": "Na snazi je zabrana rada nedjeljom, a ti baš želiš okrenut u trgovini još love, ti ćeš…",
             "answers": [
                 {"text": "Pravit se glup i svejedno otvorit trgovinu", "points": 1, "cash": 10000},
                 {"text": "Proglasiti sajamski dan i otvorit trgovinu ", "points": 2, "cash": 20000},
@@ -152,7 +152,7 @@
             "question": "Imaš malu penziju, a treba popravit kućni proračun",
             "answers": [
                 {"text": "Kreneš skupljat boce i hrvat se s drugim penzićima oko teritorija", "points": 1, "cash": 10000},
-                {"text": "Zaposlit se kao umirovljenik i časno odradit 4 sata dnevno", "points": 2, "cash": 20000},
+                {"text": "Zaposlit se kao umirovljenik i slagat police u Konzumu i časno odradit tih 4 sata dnevno", "points": 2, "cash": 20000},
                 {"text": "Kreneš dilat preostale tablete sa trajnih recepata ispred klubova", "points": 3, "cash": 40000}
             ]
         },
@@ -174,7 +174,7 @@
             ]
         },
         {
-            "question": "Neki tam migrant dostavljač ti uzme prednost u rasrižju i skoro skrivi nesreću.",
+            "question": "Neki migrant dostavljač ti uzme prednost u rasrižju i skoro skrivi nesreću.",
             "answers": [
                 {"text": "Duboko udahnuti i ne napravit ništa", "points": 1, "cash": 10000},
                 {"text": "Jebeš mu majku prašinarsku i sve svece da neka se vrati od kud je došao", "points": 1, "cash": 40000},
@@ -190,11 +190,11 @@
             ]
         },
         {
-            "question": "Slaba je nabava trave u zadnje vrijeme, a murja hvata sve nove pošiljke.",
+            "question": "Teško je doć do trave u zadnje vrijeme, a murja hvata sve nove pošiljke.",
             "answers": [
                 {"text": "Razvodnjavaš trenutnu zalihu s origanom i ekipi prodaješ pod novi okus", "points": 1, "cash": 10000},
                 {"text": "Razvodnjavaš trenutnu zalihu s peršinom i moliš boga da nitko ne skuži ", "points": 1, "cash": 30000},
-                {"text": "Uzimaš lovu za pred narudžbe i nestaješ na koji mjesec, dva.", "points": 2, "cash": 50000},
+                {"text": "Uzimaš lovu za pred narudžbe i nestaješ na kojih mjesec, dva. Kasnije prodaješ priču da su te napali na cesti i pokrali.", "points": 2, "cash": 50000},
                 {"text": "Seliš baku u dom za starije, i u njenoj staroj sobi napraviš staklenik i posadiš par komada i čekaš berbu.", "points": 2, "cash": 50000}
             ]
         }
