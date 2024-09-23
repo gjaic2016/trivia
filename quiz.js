@@ -128,7 +128,7 @@ function showResult() {
     const resultText = getResultText(totalCash);
 
     //TODO remove score after testing....Your score: ${score}.
-    resultContainer.querySelector('#result').innerHTML = `Totalna količina maznute love: $${totalCash}. <br> ${resultText}`;
+    resultContainer.querySelector('#result').innerHTML = `Totalna količina maznute love: ${totalCash}€. <br> ${resultText}`;
 
 }
 
